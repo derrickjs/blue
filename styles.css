@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #5da9e9;
+    
+}
+
+header {
+	
+	border-bottom: solid 2px lightgrey;
+    font-size: 4rem;
+    color: #5da9e9;
+    background-color: #e5f4e3;
+
+}
+
+.why{
+    display:flex;
+    border: solid 5px #003f91;
+    width:35vw;
+    margin:1%;
+    padding:1%;
+    background-color:#e5f4e3;
+    font-size: 2.3rem;
+    color:#003f91
+
+
+
+}
+
+.scheme{
+    display: flex;
+    border: solid 5px #6d326d;
+    width:35vw;
+    margin:1% auto;
+    background-color: #e5f4e3;
+    padding:1%;
+    font-size: 1.65rem;
+    color:#6d326d
+    
+
+}
+
+
+.use{
+    display:flex;
+    border: solid 5px #003f91;
+    width:35vw;
+    margin: 1%;
+    float:right;
+    background-color: #e5f4e3;
+    color:#003f91;
+    font-size: 1.9rem;
+    padding:1%
+
+}
+
+
+
+
+footer {
+	display:flex;
+	background-color: #e5f4e3;
+	position: block;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 5vh;
+	width: 100%;
+	border-top: 2px solid lightgray;
+	justify-content:center;
+	align-items:center;
+
+	
+	 
+	
+	}
+	 
+	 .phone {
+	   
+	   font-size: .8rem;
+	margin:auto;
+	 }
+	 
+	 .address {
+	   
+	   font-size: .8rem;
+	 margin:auto;
+	 }
+
+	 .copyright{
+		display: flex;
+		padding-right:2%;
+		font-size: .8rem;
+	 }
+
+
+
+     @media only screen and (max-width: 768px) {
+		/* For mobile phones: */
+		.use, .why , .scheme{
+			display:block;
+		  	width: 95%;
+           
+		}
